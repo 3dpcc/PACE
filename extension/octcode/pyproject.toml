@@ -1,0 +1,13 @@
+[build-system]
+requires = [
+    "setuptools>=78.0.1",
+    "pybind11>=3.0.1",
+    "wheel",
+]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octcode"
+version = "0.1.0"
+description = "Octree library with Python bindings"
+requires-python = ">=3.12"

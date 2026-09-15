@@ -1,0 +1,12 @@
+exp_name : nuscenes
+
+ntoken  : 256
+nlevel  : 14
+noctant : 8
+
+ninp    : 256
+nout    : 255
+nhead   : 4
+nlayer  : 12
+
+ctx_win: 1024

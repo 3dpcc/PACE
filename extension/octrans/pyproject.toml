@@ -1,0 +1,11 @@
+[build-system]
+requires = ["setuptools>=42", "torch"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "octrans"
+version = "1.0.0"
+description = "Fast rANS coder for octree point cloud compression"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["torch"]
